@@ -1,0 +1,63 @@
+.main-second {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  margin: 0 auto;
+  font-family: "SoDo Sans";
+  margin-block: 35px;
+}
+
+.second-left {
+  background-color: #1e3932;
+  text-align: center;
+  color: var(--white);
+  padding-block: 186px;
+  padding-inline: 50px;
+}
+
+.second-left h2 {
+  font-size: 48px;
+  padding-bottom: 20px;
+}
+
+.second-left p {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.second-left button {
+  background-color: transparent;
+  padding: 7px 16px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+  border: 1px solid var(--white);
+  color: var(--white);
+  font-weight: 600;
+}
+
+.second-left button:hover {
+  background-color: #e5e5e556;
+}
+
+.second-left button:active {
+  transform: scale(-0.9);
+}
+
+.second-right {
+  width: 147%;
+  overflow: hidden;
+}
+
+.second-right img {
+  width: 100%;
+  transition: 0.5s;
+  margin-top: 4px;
+}
+
+.second-right:hover img {
+  transform: scale(1.15);
+  z-index: -1;
+}

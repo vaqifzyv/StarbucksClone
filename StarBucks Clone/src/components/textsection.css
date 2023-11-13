@@ -1,0 +1,18 @@
+.textSection {
+  text-align: center;
+  font-family: "SoDo Sans";
+  margin-block: 40px;
+  border-bottom: 2px solid #eee;
+  box-shadow: -1px 1px 1px -1px rgba(0, 0, 0, 0.75);
+  padding-bottom: 40px;
+}
+
+.textSection p {
+  font-size: 14px;
+  color: var(--black);
+}
+
+.textSection p a {
+  color: var(--black);
+  text-decoration: underline !important;
+}
